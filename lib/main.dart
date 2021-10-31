@@ -9,25 +9,12 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'My Profile',
+      title: 'Profile app',
       theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // Try running your application with "flutter run". You'll see the
-        // application has a blue toolbar. Then, without quitting the app, try
-        // changing the primarySwatch below to Colors.green and then invoke
-        // "hot reload" (press "r" in the console where you ran "flutter run",
-        // or simply save your changes to "hot reload" in a Flutter IDE).
-        // Notice that the counter didn't reset back to zero; the application
-        // is not restarted.
-        primarySwatch: Colors.green,
-        // This makes the visual density adapt to the platform that you run
-        // the app on. For desktop platforms, the controls will be smaller and
-        // closer together (more dense) than on mobile platforms.
+        primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: MyHomePage(),
@@ -36,16 +23,6 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-
-  // This widget is the home page of your application. It is stateful, meaning
-  // that it has a State object (defined below) that contains fields that affect
-  // how it looks.
-
-  // This class is the configuration for the state. It holds the values (in this
-  // case the title) provided by the parent (in this case the App widget) and
-  // used by the build method of the State. Fields in a Widget subclass are
-  // always marked "final".
-
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
@@ -99,13 +76,13 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             SizedBox(height: 20),
             Text(
-              'Mayank Mandhani',
+              'Monke Mandhani',
               style: GoogleFonts.blinker( textStyle: TextStyle( fontSize: 30,  color: Colors.white)
               )
             ),
             SizedBox(height: 20),
             Text(
-              'FLUTTER DEVELOPER',
+              'ANDROID DEVELOPER',
               style: TextStyle(fontSize: 20, color: Colors.white),
             ),
             SizedBox(height: 20),
@@ -120,7 +97,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 SizedBox(width: 20),
                 Text(
-                    '+918309974608',
+                    '+918309942069',
                     style: TextStyle(fontSize: 14, color: color),
                   ),
                 ],
